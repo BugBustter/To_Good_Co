@@ -1,0 +1,271 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+*::selection{
+    background-color: black;
+    color:white
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #F7F7F7;
+}
+#nav{
+    width:100%;
+    height:10vh;
+    z-index:99;
+    position: fixed;
+    padding:3vh 5vh;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+#nav-part{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    justify-content: space-evenly;
+    width:50%
+}
+#nav-part1{
+    width:18vh;
+    height:12.5vh;
+    overflow: hidden;
+}
+#nav-part1 svg{
+display: block;
+}
+#nav-part #links a{
+    text-decoration: none;
+    color:#333;
+    margin-right: 40px;
+
+}
+#nav #icon{
+    width:20%;
+    height:6vh;
+    border-radius: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+position: relative;
+ justify-content: space-evenly;
+}
+
+#page1{
+    width:100%;
+    min-height:100vh;
+    position: relative;
+    padding:0vh 5vh;
+    padding-top:30vh;
+}
+#page1 h1{
+    font-size: 15vw;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    line-height:24vh;
+    font-weight:900;
+}
+#video-container{
+    height:100vh;
+    width:100%;
+    margin-top:8vh;
+    position: relative;
+    background:black;
+}
+#video-container video{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+#video-container #play{
+    width:150px;
+    height: 150px;
+    background-color:papayawhip
+;    position: fixed;
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+    padding:0 35px
+}
+#video-container #play h1{
+    align-items: center;
+    display: flex;
+    position: absolute;
+    font-size:5vh;
+}
+#page2{
+    width:100%;
+    min-height: 100vh;
+   display: flex;
+   padding:10vh 10vh;
+   position: relative;
+    justify-content: space-between;
+   align-items: center;
+  
+}
+#page2 .elem{
+    width:31%;
+    height: 100%;
+    position: relative;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+ 
+}
+#page2 #elem1 img{
+    background-size: cover;
+    width: 100%;
+    height:100%
+    }
+#page2 #elem2 img{
+    background-size: cover;
+    width: 100%;
+    height:100%
+        }
+#page2 #elem3 img{
+            background-size: cover;
+            width: 100%;
+            height:100%
+            }    
+.elem .dets{
+    width:40vh;
+    height:5vh;
+    background-color: antiquewhite;
+    position: absolute;
+    z-index: 9;
+    
+    border-radius: 50px;
+    
+}
+.elem .dets:hover{
+    height:40vh;
+}
+#page3{
+    width:100%;
+    min-height:120vh;
+  
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.child{
+width:40vw;
+height:55vh;
+position: relative;
+}
+.child img{
+    width: 90%;
+    height:90%;
+    display:flex;
+    justify-content: center;
+    align-items: center;    
+    object-fit: cover;
+
+}
+#point{
+    width:250px;
+    height: 250px;
+    background-color:rgba(128, 128, 128, 0.261);
+    position: fixed;
+    border-radius: 50%;
+    transform: translate(-50%,-50%) scale(0);
+}
+
+@media(max-width:500px){
+    #page1 h1{
+        font-size: 13.5vw;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        line-height:9vh;
+        font-weight:800;
+        letter-spacing:-1px;
+    } 
+    #video-container{
+        height:30vh;
+        width:100%;
+        margin-top:2.8vh;
+    }
+    #video-container #play{
+        color:black;
+        font-size:4vw; 
+        padding:7.5vw 5.2vw;
+     position:absolute;
+     top: 50%;
+     left:50%;
+     transform: translate(-50%,-50%);
+     opacity: 1;
+     scale:1;
+    }
+    #page1{
+        width:100%;
+        min-height:95vh;
+    }
+    #page2{
+        width:100%;
+      flex-direction: column;
+       padding:8vh 2vh;
+      
+    }
+    #page2 .elem{
+        width:100%;
+        height: 100%;
+        position: relative;
+        margin-bottom:15vh;
+    }
+    #page3{
+     margin-top:-10vh
+    }
+    .child{
+        height:20vh;
+        
+        }
+    .elem .dets:hover{
+            height:40vh;
+        }
+               
+        #nav{
+            z-index:99;
+            position: fixed;
+            padding:5px 5px;
+            display: flex;
+            justify-content: space-between;
+             
+        }
+        #nav-part{
+            display: flex;
+            align-items: center;
+            gap:20px;
+            justify-content: space-evenly;
+            width:50%;
+            
+    
+        }
+        #nav-part1{
+            width:15vh;
+            height:8.8vh;
+            overflow: hidden;
+        }
+        #nav-part1 svg{
+        display: block;
+        height:50px;
+        }
+        #nav-part #links a{
+           display:none;
+     }
+        #nav #icon{
+            width:50%;
+            height:4vh;
+            border-radius: 50px;
+            background-color: white;
+            background-color: white;
+            display: flex;
+            align-items: center;
+        position: relative;
+         justify-content: space-evenly;
+        }
+               
+}
