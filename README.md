@@ -11,9 +11,8 @@
 
 # 🌐 Live Demo
 
-**🔗 Live Website:** https://your-live-demo-link.com
+**🔗 Live Website:** https://to-good-co.vercel.app/
 
-**🎥 Demo Video:** https://your-demo-video-link.com
 
 ---
 ## Screenshots
