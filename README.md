@@ -1,4 +1,4 @@
-# 👕 TO Good Do – Fashion & Clothing Store
+# 👕 TO Good Co – Fashion & Clothing Store
 
 ### Modern E-Commerce Clothing Website
 
@@ -17,9 +17,10 @@
 
 ---
 #Screenshot
+<img width="1800" height="1000" alt="two_good_collage" src="https://github.com/user-attachments/assets/7e78bc2e-6372-40f2-9f3b-5b0b120a3873" />
 
-(./<img width="1254" height="1254" alt="ChatGPT Image Jun 15, 2026, 05_43_12 AM" src="https://github.com/user-attachments/assets/2f41258c-d308-46df-92f9-5c837266bc85" />
-)
+
+
 # 📌 Overview
 
 **TO Good Do** is a modern fashion and clothing e-commerce website designed to provide users with a seamless online shopping experience. The platform showcases trendy apparel, featured collections, and stylish product displays through an intuitive and visually appealing interface.
