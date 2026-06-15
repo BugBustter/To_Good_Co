@@ -16,7 +16,7 @@
 **🎥 Demo Video:** https://your-demo-video-link.com
 
 ---
-#Screenshot
+## Screenshots
 <img width="1800" height="1000" alt="two_good_collage" src="https://github.com/user-attachments/assets/7e78bc2e-6372-40f2-9f3b-5b0b120a3873" />
 
 
